@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com CSS</title>
+    <style>
+        @import url();
+        body{
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, "px", pt, pc
+
+            Medidas Relativas
+            "em", ex, rem, vw, vh, %
+
+            16px geralmente = 1em
+            */
+            font-size: 1em;           
+        } 
+        h1 {
+            /*Ao invés de usar linha por linha das fontes posso usar  uma "shorthand".
+            
+            para não usar assim:
+            font-family:'Work Sans', sans-serif;
+            font-weight:bolder;
+            font-size: 3em;
+            font-style: ítalic;
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif; /* Posso fazer desta maneira.*/
+        }
+        h2 {
+            font: bold 2em 'Work Sans'
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem soluta consectetur distinctio saepe vitae voluptas eaque odio, inventore, cum perspiciatis amet quia. Officia ad sequi aperiam molestias quis. Fuga, tempore! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione fuga inventore nulla nostrum repudiandae molestias odit earum eum ea, ut ipsam necessitatibus eligendi autem qui iste, eaque, atque non. Consequuntur.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam accusantium corporis error nostrum veritatis eligendi, voluptates corrupti odio quasi expedita enim molestias exercitationem esse magni pariatur perspiciatis, non quae quidem.</p>
+    <h2>Subtítulo de exercício</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex quisquam laudantium animi repellendus odit vel, amet voluptates voluptas harum, sequi velit voluptatem modi. Eos, saepe soluta reprehenderit ratione rem repudiandae. </p>
+</body>
+</html>

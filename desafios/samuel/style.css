@@ -1,0 +1,14 @@
+body {
+  height: 100vh;
+  height: 100vh;
+  background-image: url('imagens/imgFundo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+h1 {
+  color: aliceblue;
+}
+img {
+  border-radius: 50%;
+}
