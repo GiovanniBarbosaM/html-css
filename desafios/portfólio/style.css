@@ -6,7 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh; /* Faz com que o body ocupe toda a altura da página */
-    background-image: linear-gradient(to bottom, #000000, rgb(14, 14, 51), #000000);
+    background-image: url('imagens/noite.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
