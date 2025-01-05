@@ -16,6 +16,12 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h1.giovanni {
+    margin: 0px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
 .container {
     flex: 1; /* Faz o conteúdo principal expandir e empurrar o footer para baixo */
 }
@@ -36,7 +42,7 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
     color: #efddc3;
     text-align: center;
-    margin: 30px;
+    margin: 0px;
     font-size: 40px;
     font-weight: bold;
 }
@@ -70,8 +76,12 @@ a {
 }
 
 /* Imagens */
-img {
-    border-radius: 5%;
+
+.imgperfil {
+    float: left;
+    width: 40%;
+    margin-top: 70px;
+    padding-top: 100px;
     opacity: 0.6;
     transition: opacity 0.3s ease;
     height: 400px;
@@ -83,12 +93,6 @@ img:hover {
     opacity: 1;
 }
 
-.imgperfil {
-    float: left;
-    width: 40%;
-    margin-top: 70px;
-    padding-top: 50px;
-}
 
 /* Animação de flutuação */
 .floating-image {
@@ -129,6 +133,7 @@ p {
     transition: all 0.3s ease;
     text-align: justify;
     margin: 30px;
+    text-indent: 30px;
 }
 
 /* Seções específicas */
